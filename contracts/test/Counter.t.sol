@@ -3,6 +3,7 @@ pragma solidity ^0.8.13;
 
 import {Test, console2} from "forge-std/Test.sol";
 import {Counter} from "../src/Counter.sol";
+import {World} from "../src//lib/World.sol";
 
 contract CounterTest is Test {
     Counter public counter;
@@ -12,13 +13,13 @@ contract CounterTest is Test {
         counter.setNumber(0);
     }
 
-    function test_Increment() public {
-        counter.increment();
-        assertEq(counter.number(), 1);
-    }
+    function test_getWorld() external {
+        World.TerrainType[32][32] memory world = counter.getWorld();
 
-    function testFuzz_SetNumber(uint256 x) public {
-        counter.setNumber(x);
-        assertEq(counter.number(), x);
+        for (uint256 i = 0; i < 32; i++) {
+            for (uint256 j = 0; j < 32; j++) {
+                console2.log(uint256(world[i][j]), "");
+            }
+        }
     }
 }
