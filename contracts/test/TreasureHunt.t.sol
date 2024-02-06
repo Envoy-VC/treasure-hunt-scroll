@@ -38,8 +38,11 @@ contract TreasureHuntTest is Test {
         uint256 initialBalance = hunt.balances(user.addr);
         string memory proof = vm.readLine("./proofs/circuits.proof");
         bytes memory proofBytes = vm.parseBytes(proof);
+        bytes32[] memory publicInputs = new bytes32[](2);
+        publicInputs[0] = bytes32(0x0000000000000000000000000000000000000000000000000000000000000020);
+        publicInputs[1] = bytes32(0x000000000000000000000000000000000000000000000000000000000000001c);
 
-        hunt.dig(proofBytes, new bytes32[](0));
+        hunt.dig(proofBytes, publicInputs);
         vm.stopPrank();
 
         assertTrue(hunt.balances(user.addr) == initialBalance + hunt.REWARD_PER_DIG() - hunt.COST_PER_DIG());
