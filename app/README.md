@@ -1,30 +1,28 @@
-# React Three Fiber + Vite Starter
+# Create T3 App
 
-_A simple React Three Fiber + Vite starter with an import-ready CodeSandbox config._
+This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-![Preview](/public/preview.gif)
+## What's next? How do I make an app with this?
 
-### Resources:
+We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
 
-- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/): Three.js Renderer
-- [Drei](https://github.com/pmndrs/drei): React Three Fiber Helpers
-- [Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene): 3D Engine
-- [Vite](https://vitejs.dev/guide/): Static Web Server
-- [CodeSandbox](https://codesandbox.io/docs/configuration): Online Prototyping Container (optional)
+If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
-### Installation
+- [Next.js](https://nextjs.org)
+- [NextAuth.js](https://next-auth.js.org)
+- [Prisma](https://prisma.io)
+- [Tailwind CSS](https://tailwindcss.com)
+- [tRPC](https://trpc.io)
 
-```
-npm install
-```
+## Learn More
 
-### Scripts
+To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
 
-```
-npm run dev
-npm run build
-npm run preview
-npm run sandbox
-```
-### CodeSandbox
-To create a sandbox from this starter, [import your repository URL](https://codesandbox.io/dashboard/repositories) (this repo works too), or [fork this template](https://codesandbox.io/s/react-three-fiber-vite-starter-r1tgld).
+- [Documentation](https://create.t3.gg/)
+- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+
+You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+
+## How do I deploy this?
+
+Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
