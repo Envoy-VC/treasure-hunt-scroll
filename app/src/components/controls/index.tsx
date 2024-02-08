@@ -1,10 +1,12 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
 
 import {
   BarretenbergBackend,
   type CompiledCircuit,
 } from '@noir-lang/backend_barretenberg';
-import { Noir, keccak256 } from '@noir-lang/noir_js';
+import { InputMap, Noir, keccak256 } from '@noir-lang/noir_js';
 
 import circuits from '~/assets/circuits.json';
 
@@ -32,8 +34,8 @@ const Controls = () => {
 
       const sol = new Uint8Array(Buffer.from(value));
 
-      const input = {
-        riddles: publicInputs,
+      const input: InputMap = {
+        riddles: publicInputs as any,
         position: [position.x.toString(), position.y.toString()],
         answerHash: Array.from(keccak256(sol)),
       };

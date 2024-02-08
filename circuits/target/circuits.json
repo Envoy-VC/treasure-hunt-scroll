@@ -1,1 +1,47 @@
-{"noir_version":"0.22.0+3fae4a03fded4e3f5065e7461c563f7e39745604","hash":12451369989697834738,"abi":{"parameters":[{"name":"riddles","type":{"kind":"array","length":3,"type":{"kind":"struct","path":"treasure::Riddle","fields":[{"name":"question","type":{"kind":"field"}},{"name":"answerHash","type":{"kind":"field"}},{"name":"position","type":{"kind":"field"}}]}},"visibility":"public"},{"name":"position","type":{"kind":"array","length":2,"type":{"kind":"field"}},"visibility":"private"},{"name":"answerHash","type":{"kind":"array","length":32,"type":{"kind":"integer","sign":"unsigned","width":8}},"visibility":"private"}],"param_witnesses":{"answerHash":[{"start":12,"end":44}],"position":[{"start":10,"end":12}],"riddles":[{"start":1,"end":10}]},"return_type":null,"return_witnesses":[]},"bytecode":"H4sIAAAAAAAA/+1aaU/bQBAdoKXQlvu+zX2l4I1tYgMp9JRaCSrxDxolkSKhpCq0P7+qHxmEM+QLyiyypay0PF6yGu/O7s687PqKiD5Ts/TEtTeub+M6kOBDgg8LPiL4qOBjgo8LPiH4pOBTgk8LPiP4rOBzgs8LviD4ouBLgi8LviK4I/iq4GuCrwu+Ifim4FuCbwu+I/iu4HuC7yf4K/4M5XVc/8X1DSNKjlpLH+M5o+ce+X6lkK8Yz/x081EpDFw/KB2FJjRBGJTzoedVQj8sRKWo4EbG9yqmGkRe1W2WvoQtt7Nicor9eqfXr7sx9tDj0iN86XZWjGafk/09iOsL/r+3zVrotzAWEs+R/htu85nqw21MzoEFu4ekt+htjftQf45cEguEFP3QT+kMSi5lLyhp9jnZX2zSblDq0KbLjtS2m6d0ByUYzevPUUtQ6hW2O/WDpk+9lK9L+O6wjd1Ox+0rz7X2uPssjTugbCTeQUpn4j2i7CVezT4n+1ugbuJVmZyCBbshpTvxYtyh/hxZTbyaPo1Svi5fUlMYaSegD5TuxAtB5FsY90fKRuI9VvSl4lwbbf9pr5t+S/vlSwb2S2Bh3F8pG/vlRNGXinNttP2nvW4g8EML6+ZbyseNvH9iYdzfKRv7JafoS8W5Npr+u79Oc9gerlVxjTbEOMw4wjjKOMY4zjjBOMk4xTjNOMM4yzjHOM+4wLjIuMS4zLjC6DCuMq4xrjNuMG4ybjFuM+4w7jLuMe7Tw/XhKT2+Zjzl73OJdkVG7f2Ba04b8eaC7MYbjd8ZxxbsXtLzxBu3s2KKirYuFP33g7IRr98r+k9xzRhN/z3XQZyiL1sO4s6oexCnMjlnFuyeU7oP4pKLUtGu1aBUJDsJPE1JcY3t4F0svIcFEQkBiY0F4QjRCMEIsQihCJEIgQhxCGEIUQhBCDEIIQgRCAEI8Qfh51BT8OE5EHoQeRB4EHcQdhB1EHQQcxByg9yf+3fHMKcIOjgoRICBsBtItCN6CEooBcZFxsuGc1Url68rTrXxp16O//52fjVuare1Rh3fh09sHz2x/SduN8bIjeuNW+emcf23Uv4Pp2Ly/SEpAAA="}
+{
+	"noir_version": "0.22.0+3fae4a03fded4e3f5065e7461c563f7e39745604",
+	"hash": 12451369989697834738,
+	"abi": {
+		"parameters": [
+			{
+				"name": "riddles",
+				"type": {
+					"kind": "array",
+					"length": 3,
+					"type": {
+						"kind": "struct",
+						"path": "treasure::Riddle",
+						"fields": [
+							{ "name": "question", "type": { "kind": "field" } },
+							{ "name": "answerHash", "type": { "kind": "field" } },
+							{ "name": "position", "type": { "kind": "field" } }
+						]
+					}
+				},
+				"visibility": "public"
+			},
+			{
+				"name": "position",
+				"type": { "kind": "array", "length": 2, "type": { "kind": "field" } },
+				"visibility": "private"
+			},
+			{
+				"name": "answerHash",
+				"type": {
+					"kind": "array",
+					"length": 32,
+					"type": { "kind": "integer", "sign": "unsigned", "width": 8 }
+				},
+				"visibility": "private"
+			}
+		],
+		"param_witnesses": {
+			"answerHash": [{ "start": 12, "end": 44 }],
+			"position": [{ "start": 10, "end": 12 }],
+			"riddles": [{ "start": 1, "end": 10 }]
+		},
+		"return_type": null,
+		"return_witnesses": []
+	},
+	"bytecode": "H4sIAAAAAAAA/+1aaU/bQBAdoKXQlvu+zX2l4I1tYgMp9JRaCSrxDxolkSKhpCq0P7+qHxmEM+QLyiyypay0PF6yGu/O7s687PqKiD5Ts/TEtTeub+M6kOBDgg8LPiL4qOBjgo8LPiH4pOBTgk8LPiP4rOBzgs8LviD4ouBLgi8LviK4I/iq4GuCrwu+Ifim4FuCbwu+I/iu4HuC7yf4K/4M5XVc/8X1DSNKjlpLH+M5o+ce+X6lkK8Yz/x081EpDFw/KB2FJjRBGJTzoedVQj8sRKWo4EbG9yqmGkRe1W2WvoQtt7Nicor9eqfXr7sx9tDj0iN86XZWjGafk/09iOsL/r+3zVrotzAWEs+R/htu85nqw21MzoEFu4ekt+htjftQf45cEguEFP3QT+kMSi5lLyhp9jnZX2zSblDq0KbLjtS2m6d0ByUYzevPUUtQ6hW2O/WDpk+9lK9L+O6wjd1Ox+0rz7X2uPssjTugbCTeQUpn4j2i7CVezT4n+1ugbuJVmZyCBbshpTvxYtyh/hxZTbyaPo1Svi5fUlMYaSegD5TuxAtB5FsY90fKRuI9VvSl4lwbbf9pr5t+S/vlSwb2S2Bh3F8pG/vlRNGXinNttP2nvW4g8EML6+ZbyseNvH9iYdzfKRv7JafoS8W5Npr+u79Oc9gerlVxjTbEOMw4wjjKOMY4zjjBOMk4xTjNOMM4yzjHOM+4wLjIuMS4zLjC6DCuMq4xrjNuMG4ybjFuM+4w7jLuMe7Tw/XhKT2+Zjzl73OJdkVG7f2Ba04b8eaC7MYbjd8ZxxbsXtLzxBu3s2KKirYuFP33g7IRr98r+k9xzRhN/z3XQZyiL1sO4s6oexCnMjlnFuyeU7oP4pKLUtGu1aBUJDsJPE1JcY3t4F0svIcFEQkBiY0F4QjRCMEIsQihCJEIgQhxCGEIUQhBCDEIIQgRCAEI8Qfh51BT8OE5EHoQeRB4EHcQdhB1EHQQcxByg9yf+3fHMKcIOjgoRICBsBtItCN6CEooBcZFxsuGc1Url68rTrXxp16O//52fjVuare1Rh3fh09sHz2x/SduN8bIjeuNW+emcf23Uv4Pp2Ly/SEpAAA="
+}

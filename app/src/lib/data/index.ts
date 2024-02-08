@@ -1,3 +1,5 @@
+import { InputMap } from '@noir-lang/noir_js';
+
 export const questions: Record<string, string> = {
   '26x32':
     'I am the block number on the Ethereum blockchain where The DAO incident took place. I caused a significant community discussion and a subsequent fork. Which block number am I?',
@@ -55,4 +57,15 @@ export const publicInputs = [
     position:
       '0x0255a6f0edfa87588206a8ecd349b2696e8a89ff58ddeb95bd211fbe8e0ba3c8',
   },
+];
+export const p = [
+  '0x1bbce9cea5e7f0b77946a24ea35bbfec547d60fb1fd7eabc24478369d4c6d61a',
+  '0x2872e4a813d9da8cf8f3298cadb8bf22de5658571d081514f660f7669bcd994c',
+  '0x1e8bde3822665ae60296fd4d6072417000a46b2439afc34bc2138f08a14a9d9a',
+  '0x06e3828c348e040d12e17f6823e2ae6d75045df3a87cccbc8615a3a9e4883b38',
+  '0x029ea07c6f140ba740bf3ae4904fe9b8128804dcc0b1f17a03f7cb85e947408c',
+  '0x2f42c1aaeee52ebe7643cd3d9847a96809b95e153033cf3bdb26ede86501c042',
+  '0x0b4580226c6354964e91caf8e39e778e80314ac490038cf5474a818797c9aeb7',
+  '0x1ae4689a3fb9d86b27199fe529ed6125ee18308febef0809c3b5dc8dbdc07561',
+  '0x0255a6f0edfa87588206a8ecd349b2696e8a89ff58ddeb95bd211fbe8e0ba3c8',
 ];
