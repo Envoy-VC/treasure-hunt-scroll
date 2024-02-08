@@ -16,7 +16,13 @@ fn test_correct() {
     let riddles  = getRiddles();
     let position = [32, 28];
     let answer = std::hash::keccak256("Casper".as_bytes(), "Casper".as_bytes().len() as u32);
-    println(answer);
+
+    for i in 0..3 {
+        print(riddles[i].question);
+        print(riddles[i].answerHash);
+        print(riddles[i].position);
+    }
+
     main(riddles, position, answer);
 }
 

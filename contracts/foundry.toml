@@ -6,3 +6,9 @@ fs_permissions = [{ access = "read-write", path = "./"},{ access = "read-write",
 ffi = true
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+[rpc_endpoints]
+scroll = "${SCROLL_RPC_URL}"
+
+[etherscan]
+534351 = { key = "${SCROLL_ETHERSCAN_API_KEY}" ,url = "https://api-sepolia.scrollscan.com/api"}
