@@ -6,8 +6,6 @@ import {
 } from '@noir-lang/backend_barretenberg';
 import { Noir, keccak256 } from '@noir-lang/noir_js';
 
-import { Buffer } from 'buffer';
-
 import circuits from '~/assets/circuits.json';
 
 import { usePlayerStore } from '~/lib/stores';
